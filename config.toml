@@ -10,6 +10,7 @@ paginate = 5
   fullWidthTheme = false
   centerTheme = true
   autoCover = true
+  customCSS = ["css/custom.css"] # Add this line to include your custom CSS file
 
 [languages]
   [languages.en]
@@ -33,7 +34,7 @@ paginate = 5
 
       [languages.en.params.logo]
         logoText = "Data Chronicles"
-        logoHomeLink = "/"
+        logoHomeLink = "https://dgarciarieckhof.github.io/blog/"
 
       [languages.en.menu]
         [[languages.en.menu.main]]
