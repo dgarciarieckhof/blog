@@ -1,0 +1,46 @@
+baseURL = '/'
+languageCode = 'en-us'
+title = 'Data Chronicles'
+theme = 'terminal'
+paginate = 5
+
+[params]
+  contentTypeName = "posts"
+  showMenuItems = 2
+  fullWidthTheme = false
+  centerTheme = true
+  autoCover = true
+
+[languages]
+  [languages.en]
+    languageName = "English"
+    title = "Data Chronicles"
+
+    [languages.en.params]
+      subtitle = "Engaging stories through data insights"
+      owner = ""
+      keywords = ""
+      copyright = ""
+      menuMore = "Show more"
+      readMore = "Read more"
+      readOtherPosts = "Read other posts"
+      newerPosts = "Newer posts"
+      olderPosts = "Older posts"
+      missingContentMessage = "Page not found..."
+      missingBackButtonLabel = "Back to home page"
+      minuteReadingTime = "min read"
+      words = "words"
+
+      [languages.en.params.logo]
+        logoText = "Data Chronicles"
+        logoHomeLink = "/"
+
+      [languages.en.menu]
+        [[languages.en.menu.main]]
+          identifier = "about"
+          name = "About me"
+          url = "/about"
+        [[languages.en.menu.main]]
+          identifier = "lectures"
+          name = "Good reads"
+          url = "/lectures"
