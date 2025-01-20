@@ -1,6 +1,6 @@
 +++
 title = "Good reads"
-date = "2023-10-01"
+date = "2025-01-09"
 +++
 
 Here are some lectures that I found particularly interesting and insightful:
