@@ -10,6 +10,16 @@ paginate = 5
   fullWidthTheme = false
   centerTheme = true
   autoCover = true
+  math = True
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.extensions]
+      [markup.goldmark.extensions.passthrough]
+        enable = true
+        [markup.goldmark.extensions.passthrough.delimiters]
+          block = [['\[', '\]'], ['$$', '$$']]
+          inline = [['\(', '\)']]
 
 [languages]
   [languages.en]
