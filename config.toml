@@ -10,7 +10,7 @@ paginate = 5
   fullWidthTheme = false
   centerTheme = true
   autoCover = true
-  math = True
+  math = true
 
 [markup]
   [markup.goldmark]
